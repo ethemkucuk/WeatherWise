@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,::after,::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.glassCard{
+  
+  background: rgba(255, 50, 50, 0.18); /* Kırmızı tonlu hafif bir arka plan */
+border-radius: 10px;
+box-shadow: 0 8px 32px 0 rgba(255, 0, 0, 0.37); /* Koyu kırmızı tonlu gölge */
+backdrop-filter: blur(8px);
+-webkit-backdrop-filter: blur(8px);
+border: 1px solid rgba(255, 50, 50, 0.18); /* Arka plan rengine uyumlu hafif bir çerçeve */
+
+
+}
